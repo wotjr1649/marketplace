@@ -1,0 +1,20 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "wotjr1649",
+  "description": "Plugins published and maintained by wotjr1649 for Claude Code and Codex.",
+  "owner": {
+    "name": "wotjr1649",
+    "url": "https://github.com/wotjr1649"
+  },
+  "plugins": [
+    {
+      "name": "devflow",
+      "description": "An Issue-driven development loop for Claude Code and Codex.",
+      "source": {
+        "source": "github",
+        "repo": "wotjr1649/devflow",
+        "ref": "v0.2.0"
+      }
+    }
+  ]
+}
