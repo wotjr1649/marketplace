@@ -40,7 +40,8 @@ codex plugin add devflow@wotjr1649
 
 ### Codex에 로컬 catalog checkout을 등록한 경우
 
-기존 같은 이름의 캐시 폴더를 유지해야 하면, 이 저장소를 별도 폴더에 clone하고 그 checkout을 등록할 수 있다.
+`wotjr1649`가 미등록된 Codex에서 기존 같은 이름의 marketplace 캐시 폴더를 유지해야 하면,
+이 저장소를 별도 폴더에 clone하고 그 checkout을 등록할 수 있다. 이미 등록돼 있으면 현재 소스를 확인하고 기존 등록을 유지한다.
 `<marketplace-checkout>`은 이 저장소를 clone한 폴더로 바꾼다.
 
 ```bash
@@ -56,6 +57,7 @@ git -C "<marketplace-checkout>" pull --ff-only
 codex plugin add devflow@wotjr1649
 ```
 
+설치·갱신 뒤 새 세션을 시작하고 `/hooks`에서 새 식별자 또는 추가·변경된 훅의 신뢰를 확인한다.
 `codex plugin marketplace upgrade`는 Git 소스로 등록한 catalog를 갱신하는 명령이므로 이 local 등록에는 쓰지 않는다.
 checkout의 미커밋 변경이나 브랜치 분기로 pull이 거부되면 변경을 보존하고 원인을 확인한다. 강제 덮어쓰지 않는다.
 
