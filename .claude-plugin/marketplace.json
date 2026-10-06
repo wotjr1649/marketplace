@@ -11,8 +11,8 @@
       "name": "devflow",
       "description": "An Issue-driven development loop for Claude Code and Codex.",
       "source": {
-        "source": "github",
-        "repo": "wotjr1649/devflow",
+        "source": "url",
+        "url": "https://github.com/wotjr1649/devflow.git",
         "ref": "v0.2.0"
       }
     }
