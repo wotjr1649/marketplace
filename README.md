@@ -5,7 +5,7 @@
 
 | 플러그인 | 설치 식별자 | 릴리스 | 저장소 |
 |---|---|---|---|
-| devflow | `devflow@wotjr1649` | `v0.3.0` | [wotjr1649/devflow](https://github.com/wotjr1649/devflow) |
+| devflow | `devflow@wotjr1649` | `v0.3.1` | [wotjr1649/devflow](https://github.com/wotjr1649/devflow) |
 
 ## 설치
 
